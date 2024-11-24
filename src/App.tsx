@@ -1,15 +1,15 @@
 import './App.css'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './components/Home.tsx'
-import Navigation from './components/Navigation'
+import Register from "@/components/Register.tsx";
 
 function App() {
 
   return (
     <BrowserRouter>
-        <Navigation />
         <Routes>
             <Route path={"/"} element={<Home />} />
+             <Route path={"/signin"} element={<Register />} />
         </Routes>
     </BrowserRouter>
   )
