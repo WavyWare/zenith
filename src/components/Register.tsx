@@ -68,7 +68,7 @@ function Register() {
     return (
         <>
             <ThemeProvider>
-                <Button className={"relative top-[1rem] left-[1rem]"}><Undo2 /><Link to={"/"}> Go to Home page</Link></Button>
+                <Button className={"fixed top-[1rem] left-[1rem]"}><Undo2 /><Link to={"/"}> Go to Home page</Link></Button>
                 <div className="flex h-screen text-start container md:mx-auto justify-center items-center space-x-2">
                     <div className={"flex flex-col space-y-4"}>
                         <div className={"flex justify-center space-x-5"}>
