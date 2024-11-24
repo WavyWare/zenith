@@ -1,12 +1,17 @@
+import {ModeToggle} from "@/components/ThemeToggler.tsx";
+import {ThemeProvider} from "@/components/ThemeProvider.tsx";
+
 function Navigation() {
     return (
-        <>
-            <div className={"w-screen border-b border-zinc-200 dark:border-violet-500 mx-auto bg-zinc-100 dark:bg-zinc-900 py-5"}>
-                <div className={"flex justify-between md:container mx-auto"}>
-                    <span className={"font-bold text-violet-700 dark:text-white font-serif text-3xl"}>zenith 🌑</span>
+        <ThemeProvider defaultTheme={"system"} storageKey={"vite-ui-theme"}>
+            <div className={"w-screen dark:border-violet-500 mx-auto py-5 border-b"}>
+                <div className={"flex justify-around mx-auto"}>
+                    <span className={"font-bold text-violet-800 dark:text-violet-500 font-serif text-3xl"}>zenith 🌑</span>
+                    <ModeToggle/>
                 </div>
             </div>
-        </>
+        </ThemeProvider>
     );
 }
+
 export default Navigation;
