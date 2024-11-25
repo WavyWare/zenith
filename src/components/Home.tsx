@@ -25,7 +25,7 @@ function Home() {
                 />
             </div>
             <div className={"md:mx-auto container"}>
-                <h1 className={"text-4xl font-semibold"}> Why zenith?</h1>
+                <h1 className={"text-4xl font-semibold mx-5"}> Why zenith?</h1>
             </div>
         </>
     )
