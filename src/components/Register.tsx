@@ -72,10 +72,10 @@ function Register() {
                 <div className="flex h-screen text-start container md:mx-auto justify-center items-center space-x-2">
                     <div className={"flex flex-col space-y-4"}>
                         <div className={"flex justify-center space-x-5"}>
-                            <ItalicHeader size={"3rem"} className={"md:text-[5rem]"}>Register </ItalicHeader>
-                            <h1 className="md:text-[5rem] block text-[3rem]">
-                                to zenith!
+                            <h1 className="md:text-[5rem] block text-[2.5rem]">
+                                Register to 
                             </h1>
+                            <ItalicHeader size={"2.5rem"} className={"md:text-[5rem]"}>zenith</ItalicHeader>
                         </div>
                         <div className="w-full max-w-sm items-center flex justify-center mx-auto">
                             <form className={"flex flex-col space-y-2"} onSubmit={handleSubmit}>
