@@ -13,7 +13,7 @@ function Home() {
             <div
                 className="relative flex h-[80vh] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background ">
               <span className="md:w-[700px] break-words whitespace-normal bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center md:mx-20 font-semibold leading-none">
-                  <BlurIn word={"zenith"} />
+                  <BlurIn word={"zenith"} duration={1.5}/>
               </span>
               <Link to={'/'}>
                   <Button className={"my-5"}>
